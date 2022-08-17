@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container px-5">
+        <h1 class="text-center my-5 ">Lets get some money</h1>
+        <div class="row gy-5 row-cols-1 row-cols-md-2 row-cols-lg-3 text-white">
+            <div class="col ">
+                <div class="p-3 border rounded-3 fw-bold bg-success">
+                    Deposit <h2>$ <span id="deposit-blance">0</span></h2>
+                </div>
+
+            </div>
+            <div class="col ">
+                <div class="p-3 border rounded-3 fw-bold text-dark bg-warning">
+                    Withdraw <h2>$ <span id="withdraw-blance">0</span></h2>
+                </div>
+
+            </div>
+            <div class="col ">
+                <div class="p-3 border rounded-3 fw-bold bg-primary">
+                    Balance <h2>$ <span id="balance-amount">1200</span></h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 px-5">
+        <div class="row gy-5 gy-md-0 row-cols-1 row-cols-md-2  text-white">
+            <div class="col ">
+                <div class="p-3 border rounded-3 fw-bold bg-info">
+                    <h4>Please Deposit</h4>
+                    <div class="deposit-section ms-3">
+                        <input type="text" class="border rounded-3 w-75 px-3" placeholder="please input your amount"
+                            id="deposit-amount"><br>
+                        <button id="deposit-btn" class="btn btn-sm bg-dark text-white mt-4 px-4 py-2">Deposit</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col ">
+                <div class="p-3 border rounded-3 fw-bold text-white bg-danger">
+                    <h4>Please Withdraw</h4>
+                    <div class="deposit-section ms-3">
+                        <input type="text" class="border rounded-3 w-75 px-3" placeholder="please input your amount"
+                            id="withdraw-amount"><br>
+                        <button id="withdraw-btn" class="btn btn-sm bg-dark text-white mt-4 px-4 py-2">Withdraw</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="/app.js"></script>
+</body>
+
+</html>
